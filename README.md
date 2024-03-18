@@ -73,7 +73,8 @@ void loop() {
 }
 ```
 <pre>loop runs continuously to react to signals from input devices<br>or changes to the state of program<br>
-digitalRead() - reads the value from a specified digit pin, either HIGH or LOW<br>syntax : digitalRead(pin)<br></pre>
+digitalRead() - reads the value from a specified digit pin, either HIGH or LOW<br>syntax : digitalRead(pin)<br>
+.write() - writes a value to the servo, controlling the shaft accordingly, set the angle in degrees<br></pre>
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
