@@ -27,8 +27,30 @@ void loop() {
 
 ```
 ### code explanation
-<pre>// - comment <br>include &ltServo.h&gt - includes library to control servo motor
-</pre>
+```c
+// arduino code
+```
+<pre> which is a comment </pre>
+<br>
+
+```c
+#include <Servo.h>
+```
+<pre>includes library to control servo motor
+</pre><br>
+
+```c
+Servo motor;
+```
+<pre> create motor object to control the servo motor </pre><br>
+
+```c
+int sensor_pin = 4;
+int motor_pin = 5;
+```
+
+<pre>create two variables for raindrop sensor and servo motor<br>and assigning values to which pin they are connected</pre><br>
+
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
