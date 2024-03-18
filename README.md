@@ -1,4 +1,7 @@
 <pre> this is a web-app project<br> made by AFNAN and NIHAL <br></pre>
+### code explanation
+<pre> // - comment <br>include &ltServo.h&gt - includes library to control servo motor
+</pre>
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
