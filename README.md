@@ -60,6 +60,20 @@ void setup() {
 <pre>setup() runs once, when the hardware is first powered on<br>
 pinMode - configures the specified pin to behave either as an input or an output<br>syntax : pinMode(pin, mode)<br>
 .attach - attach variable to a pin<br> syntax : servo.attach(pin)</pre><br>
+
+```ino
+void loop() {
+    int val = digitalRead(sensor_pin);
+    if(val == 0) {
+        motor.write(0);
+    }
+    if(val == 1) {
+        motor.write(180);
+    }
+}
+```
+<pre>loop runs continuously to react to signals from input devices or
+     changes to the state of program</pre>
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
