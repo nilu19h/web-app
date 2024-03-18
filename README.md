@@ -1,6 +1,6 @@
 <pre> web-app by AFNAN <br></pre>
 ### arduino code
-```c
+```ino
 // arduino code
 
 #include <Servo.h>
@@ -27,30 +27,39 @@ void loop() {
 
 ```
 ### code explanation
-```c
+```ino
 // arduino code
 ```
 <pre> which is a comment </pre>
 <br>
 
-```c
+```ino
 #include <Servo.h>
 ```
 <pre>includes library to control servo motor
 </pre><br>
 
-```c
+```ino
 Servo motor;
 ```
 <pre> create motor object to control the servo motor </pre><br>
 
-```c
+```ino
 int sensor_pin = 4;
 int motor_pin = 5;
 ```
 
 <pre>create two variables for raindrop sensor and servo motor<br>and assigning values to which pin they are connected</pre><br>
 
+```ino
+void setup() {
+    pinMode(sensor_pin, INPUT);
+    motor.attach(motor_pin);
+}
+```
+<pre>setup() runs once, when the hardware is first powered on<br>
+pinMode - configures the specified pin to behave either as an input or an output<br>syntax : pinMode(pin, mode)<br>
+.attach - attach variable to a pin<br> syntax : servo.attach(pin)</pre><br>
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
