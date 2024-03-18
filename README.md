@@ -72,8 +72,8 @@ void loop() {
     }
 }
 ```
-<pre>loop runs continuously to react to signals from input devices or
-     changes to the state of program</pre>
+<pre>loop runs continuously to react to signals from input devices<br>or changes to the state of program<br>
+digitalRead() - reads the value from a specified digit pin, either HIGH or LOW<br>syntax : digitalRead(pin)<br></pre>
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
@@ -90,7 +90,7 @@ void loop() {
      setup runs once, when the hardware is first powered on<br>
   2) loop()
      loop runs continuously to react to signals from input devices or
-     changes to the state of program 
+     changes to the state of program
 
   used to build IoT products, robots, wearable devices, ...
    </pre>
