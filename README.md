@@ -20,7 +20,7 @@ void loop() {
     if(val == 0) {
         motor.write(0);
     }
-    if(val == 1) {
+    else {
         motor.write(180);
     }
 }
@@ -67,7 +67,7 @@ void loop() {
     if(val == 0) {
         motor.write(0);
     }
-    if(val == 1) {
+    else {
         motor.write(180);
     }
 }
