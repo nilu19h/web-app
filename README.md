@@ -1,4 +1,4 @@
-<pre> this is a web-app project<br> made by AFNAN and NIHAL <br></pre>
+<pre> web-app <br></pre>
 ### code explanation
 <pre> // - comment <br>include &ltServo.h&gt - includes library to control servo motor
 </pre>
