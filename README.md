@@ -58,8 +58,8 @@ void setup() {
 }
 ```
 <pre>setup() runs once, when the hardware is first powered on<br>
-pinMode - configures the specified pin to behave either as an input or an output<br>syntax : pinMode(pin, mode)<br>
-.attach - attach variable to a pin<br> syntax : servo.attach(pin)</pre><br>
+pinMode() - configures the specified pin to behave either as an input or an output<br>syntax : pinMode(pin, mode)<br>
+.attach() - attach variable to a pin<br> syntax : servo.attach(pin)</pre><br>
 
 ```ino
 void loop() {
