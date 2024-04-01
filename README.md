@@ -75,6 +75,24 @@ void loop() {
 <pre>loop runs continuously to react to signals from input devices<br>or changes to the state of program<br>
 digitalRead() - reads the value from a specified digit pin, either HIGH or LOW<br>syntax : digitalRead(pin)<br>
 .write() - writes a value to the servo, controlling the shaft accordingly, set the angle in degrees<br></pre>
+### HTML page
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <style>
+      body {
+        text-align: center;
+        font-family: arial;
+      }
+  </head>
+  <body>
+    <h1> weather-app </h1>
+  </body>
+</html>
+```
 ### arduino
 
 <pre>an open source programmable circuit board and microcontroller<br>that makes it possible for anyone to build digital hardware products
