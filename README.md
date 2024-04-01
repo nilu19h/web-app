@@ -75,6 +75,7 @@ void loop() {
 <pre>loop runs continuously to react to signals from input devices<br>or changes to the state of program<br>
 digitalRead() - reads the value from a specified digit pin, either HIGH or LOW<br>syntax : digitalRead(pin)<br>
 .write() - writes a value to the servo, controlling the shaft accordingly, set the angle in degrees<br></pre>
+
 ### HTML page
 
 ```html
@@ -87,6 +88,7 @@ digitalRead() - reads the value from a specified digit pin, either HIGH or LOW<b
         text-align: center;
         font-family: arial;
       }
+    </style>
   </head>
   <body>
     <h1> weather-app </h1>
