@@ -1,5 +1,5 @@
 <pre> smart laundry drying system <br></pre>
-### arduino code
+### ESP32 code
 ```ino
 // arduino code
 
