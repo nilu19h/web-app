@@ -1,4 +1,4 @@
-<pre> web-app by AFNAN <br></pre>
+<pre> smart laundry drying system <br></pre>
 ### arduino code
 ```ino
 // arduino code
